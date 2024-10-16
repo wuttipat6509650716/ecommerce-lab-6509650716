@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1728995921237" clover="3.2.0">
-  <project timestamp="1728995921238" name="All files">
+<coverage generated="1729062359695" clover="3.2.0">
+  <project timestamp="1729062359695" name="All files">
     <metrics statements="33" coveredstatements="33" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="8" elements="53" coveredelements="51" complexity="0" loc="33" ncloc="33" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/home/ec2-user/git/ecommerce-lab-6509650716/app.js">
       <metrics statements="33" coveredstatements="33" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="8"/>
