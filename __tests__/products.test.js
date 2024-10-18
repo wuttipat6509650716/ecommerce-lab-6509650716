@@ -42,6 +42,9 @@ it('should update an existing product', async () => {
 const res = await request(app).put('/products/3').send({name: 'Mainboard', stock: 3});
 expect(res.statusCode).toBe(200);
 expect(res.body).toEqual({id: 3, name: 'Mainboard', price: 1500, stock: 3});
+const res2 = await request(app).put('/products/3').send({price: 3000});
+expect(res2.statusCode).toBe(200);
+expect(res2.body).toEqual({id: 3, name: 'Mainboard', price: 3000, stock: 3});
 });
 it('should return 404 if product not found', async () => {
 const res = await request(app).put('/products/4').send({name: 'GPU', price: 12000, stock: 1});;
